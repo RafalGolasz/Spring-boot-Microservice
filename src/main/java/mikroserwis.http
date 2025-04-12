@@ -1,0 +1,17 @@
+### GET all parts
+GET http://localhost:8080/parts
+
+### GET part by id
+GET http://localhost:8080/parts/2
+
+### POST part
+POST http://localhost:8080/parts
+Content-Type: application/json
+
+{
+  "materialNumber": 156,
+  "supplierNumber": 134
+}
+
+### DELETE part
+DELETE http://localhost:8080/parts/6
